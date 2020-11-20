@@ -27,5 +27,7 @@ urlpatterns = [
     path('portfolio_details/', views.Portfolio_details.as_view(),name="portfolio_details"),
     path('pricing/', views.Pricing.as_view(),name="pricing"),
     path('team/', views.Team.as_view(),name="team"),
-    
+    path('testimonials/', views.Testimonial.as_view(), name="testimonial"),
+    path('blogs/', views.Blog.as_view(), name="blog")
+
 ]
