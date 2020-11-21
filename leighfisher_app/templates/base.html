@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 {% load static %}
+{% load i18n %}
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Sailor Bootstrap Template</title>
+
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -50,8 +52,8 @@
         <ul>
           <li class="active"><a href="{% url 'index' %}">Home</a></li>
 
-          <li class="drop-down"><a href="#">About</a>
-            <ul>
+          <li><a href="{% url 'about' %}">About</a></li>
+            <!-- <ul>
               <li><a href="{% url 'about' %}">About Us</a></li>
               <li><a href="{% url 'team' %}">Team</a></li>
               <li><a href="{% url 'testimonial' %}">Testimonials</a></li>
@@ -65,10 +67,25 @@
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li>
+            </ul> -->
+
+
+          <li class="drop-down"><a href="#">Services</a>
+            <ul>
+              <li><a href="{% url 'about' %}">Trust Funding</a></li>
+              <li><a href="{% url 'about' %}">Realty</a></li>
+              <li><a href="{% url 'about' %}">Business/Projects Advisory</a></li>
+              <li><a href="{% url 'about' %}">Startup Assistance</a></li>
+              <li><a href="{% url 'about' %}">Engineering Services</a></li>
+              <li><a href="{% url 'about' %}">Logistics</a></li>
+              <li><a href="{% url 'about' %}">Power Venture</a></li>
+              <li><a href="{% url 'about' %}">Tourism</a></li>
+              <li><a href="{% url 'team' %}">Constructions/Infra</a></li>
+              <li><a href="{% url 'testimonial' %}">Solar</a></li>
+              <li><a href="{% url 'testimonial' %}">International Trading</a></li>
             </ul>
           </li>
 
-          <li><a href="{% url 'services' %}">Services</a></li>
           <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
           <li><a href="{% url 'pricing' %}">Pricing</a></li>
           <li><a href="{% url 'blog' %}">Blog</a></li>
