@@ -11,6 +11,11 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import environ
+
+env = environ.Env()
+# reading .env file
+environ.Env.read_env()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -21,6 +26,14 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'ar4g1(vyh9)ynisfx5mb&0*w1(^$5g-$ain4$6^#73gg^%ltk@'
+
+# SMTP EMAIL SETTINGS
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = env("EMAIL")
+EMAIL_HOST_PASSWORD = env("PASSWORD")
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
