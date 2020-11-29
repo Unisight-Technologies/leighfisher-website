@@ -58,3 +58,46 @@ class Testimonial(TemplateView):
 
 class Blog(TemplateView):
     template_name = "blog.html"
+    
+class Power_Venture(TemplateView):
+    template_name = "Power Venture.html"
+
+
+class Reality(TemplateView):
+    template_name = "Reality.html"
+
+
+class Solar(TemplateView):
+    template_name = "Solar.html"
+
+
+class Startups_ass(TemplateView):
+    template_name = "Startups_ass.html"
+
+
+class Tourism(TemplateView):
+    template_name = "Tourism.html"
+
+
+class trust_funding(TemplateView):
+    template_name = "trust funding.html"
+
+
+class Logistics(TemplateView):
+    template_name = "Logistics.html"
+
+
+class InternationalTrading(TemplateView):
+    template_name = "InternationalTrading.html"
+
+
+class Con_infra(TemplateView):
+    template_name = "Con_infra.html"
+
+
+class Business_adv(TemplateView):
+    template_name = "Business_adv.html"
+
+
+class Engg_serv(TemplateView):
+    template_name = "Engg_serv.html"

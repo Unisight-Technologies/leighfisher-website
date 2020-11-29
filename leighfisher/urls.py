@@ -28,6 +28,18 @@ urlpatterns = [
     path('pricing/', views.Pricing.as_view(),name="pricing"),
     path('team/', views.Team.as_view(),name="team"),
     path('testimonials/', views.Testimonial.as_view(), name="testimonial"),
-    path('blogs/', views.Blog.as_view(), name="blog")
-
+    path('blogs/', views.Blog.as_view(), name="blog"),
+    path('business_adv/', views.Business_adv.as_view(), name="Business_adv"),
+    path('power_venture/', views.Power_Venture.as_view(), name="Power_Venture"),
+    path('reality/', views.Reality.as_view(), name=" Reality"),
+    path('solar/', views.Solar.as_view(), name="Solar"),
+    path('startups_ass/', views.Startups_ass.as_view(), name="Startups_ass"),
+    path('tourism/', views.Tourism.as_view(), name="Tourism"),
+    path('trust_funding/', views.trust_funding.as_view(), name="trust_funding"),
+    path('logistics/', views.Logistics.as_view(), name="Logistics"),
+    path('internationaltrading/', views.InternationalTrading.as_view(),
+         name="InternationalTrading"),
+    path('con_infra/', views.Con_infra.as_view(), name="Con_infra"),
+    path('engg_serv/', views.Engg_serv.as_view(), name="Engg_serv"),
 ]
+
