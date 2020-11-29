@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sun Nov 29 2020 18:06:09 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* leighfisher_app/templates/index.html
+
+
+Created files:
+* .autogit/logs/log-29-10-2020-0-42-25.txt
+
+
+Deleted files:
+
+
+Renamed files:
