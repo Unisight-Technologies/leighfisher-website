@@ -1,0 +1,25 @@
+-------------------- Auto-Git Log --------------------
+		Mon Nov 30 2020 13:44:02 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* leighfisher_app/templates/Business_adv.html
+* leighfisher_app/templates/Con_infra.html
+* leighfisher_app/templates/Engg_serv.html
+* leighfisher_app/templates/InternationalTrading.html
+* leighfisher_app/templates/Logistics.html
+* "leighfisher_app/templates/Power Venture.html"
+* leighfisher_app/templates/Reality.html
+* leighfisher_app/templates/Solar.html
+* leighfisher_app/templates/Startups_ass.html
+* leighfisher_app/templates/Tourism.html
+* "leighfisher_app/templates/trust funding.html"
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
