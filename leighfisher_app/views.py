@@ -60,7 +60,7 @@ class Blog(TemplateView):
     template_name = "blog.html"
     
 class Power_Venture(TemplateView):
-    template_name = "Power Venture.html"
+     template_name = "Power Venture.html"
 
 
 class Reality(TemplateView):
