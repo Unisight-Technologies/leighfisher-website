@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Mon Nov 30 2020 17:16:28 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* leighfisher_app/templates/Con_infra.html
+
+
+Created files:
+* .autogit/logs/log-30-10-2020-16-46-7.txt
+
+
+Deleted files:
+
+
+Renamed files:
