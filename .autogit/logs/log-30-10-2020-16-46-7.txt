@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Mon Nov 30 2020 16:46:07 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* leighfisher_app/templates/Logistics.html
+* leighfisher_app/templates/Tourism.html
+
+
+Created files:
+* .autogit/logs/log-30-10-2020-16-15-50.txt
+
+
+Deleted files:
+
+
+Renamed files:
