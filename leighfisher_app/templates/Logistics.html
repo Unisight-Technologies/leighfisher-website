@@ -3,6 +3,48 @@
 {% block body_block %}
 
   <main id="main">
+    <section id="hero">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('{% static 'assets/img/logistics.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 lang="la" class="animate__animated animate__fadeInDown">Logistics </h2>
+                <p class="animate__animated animate__fadeInUp">Our professionals hold expertise in offering Logistics Consultancy which includes solutions to problems like export, import, excise, customs, benefits and the overall procedures. By giving access to consolidated knowledge, specialization and resources, we have become one stop solution for our global clients.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('{% static 'assets/img/logistics2.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">How We Help</h2>
+                <p class="animate__animated animate__fadeInUp">We value each of our client’s unique needs and preferences and help them by identifying the right talent basis their requirements in the changing business landscape.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </section><!-- End Hero -->
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
@@ -37,7 +79,7 @@
               <li><i class="ri-check-double-line"></i>Our Logistics Consultancy team has in-depth knowledge and experience in building and executing supply chain solutions for multiple industries.</li>
               <li><i class="ri-check-double-line"></i>We value each of our client’s unique needs and preferences and help them by identifying the right talent basis their requirements in the changing business landscape.</li>
             </ul>
-            <p class="font-italic">Our professionals hold expertise in offering Logistics Consultancy which includes solutions to problems like export, import, excise, customs, benefits and the overall procedures. By giving access to consolidated knowledge, specialization and resources, we have become one stop solution for our global clients. 
+            <p class="font-italic">Our professionals hold expertise in offering Logistics Consultancy which includes solutions to problems like export, import, excise, customs, benefits and the overall procedures. By giving access to consolidated knowledge, specialization and resources, we have become one stop solution for our global clients.
             </p>
           </div>
         </div>

@@ -3,6 +3,53 @@
 {% block body_block %}
 
   <main id="main">
+    <section id="hero">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('{% static 'assets/img/tourim 1.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 lang="la" class="animate__animated animate__fadeInDown">Tourism</h2>
+                <p class="animate__animated animate__fadeInUp">We advise on tourism, leisure and hospitality, delivered by our experienced team of industry and communications professionals.
+    We believe that the strength of a marketing and communication strategy lies in its alignment with the business strategy.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('{% static 'assets/img/tourism 2.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">How We Help</h2>
+                <p class="animate__animated animate__fadeInUp">To help our clients create successful, sustainable tourism destinations and memorable experiences for a worldwide audience.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </section><!-- End Hero -->
+
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">

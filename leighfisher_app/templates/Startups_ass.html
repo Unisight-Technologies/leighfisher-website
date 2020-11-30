@@ -3,6 +3,50 @@
 {% block body_block %}
 
   <main id="main">
+    <section id="hero">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('{% static 'assets/img/startup 1.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 lang="la" class="animate__animated animate__fadeInDown">Startup <span>Assistance</span></h2>
+                <p class="animate__animated animate__fadeInUp">We offer and provide a wide assortment of business startup consulting services for different organizational sectors in all around the world.Our methods have evolved to ensure that we have better flexibility and tighter monitoring in order to create stronger offerings and solutions.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('{% static 'assets/img/startups 2.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">How We Help</h2>
+                <p class="animate__animated animate__fadeInUp"> We work as the outsourced in-house counsel, business advisors and marketing strategists for new businesses and developing organizations.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </section><!-- End Hero -->
+
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">

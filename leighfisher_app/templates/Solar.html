@@ -3,6 +3,60 @@
 {% block body_block %}
 
   <main id="main">
+    <section id="hero">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('{% static 'assets/img/blog-3.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 lang="la" class="animate__animated animate__fadeInDown">Solar </h2>
+                <p class="animate__animated animate__fadeInUp">LeighFisher is a global management consulting firm that combines deep market-specific knowledge with specialized expertise in business advisory, startups assistance, international trading, logistics and trust funding. We focus on providing impactful and noticeable consulting services.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('{% static 'assets/img/solar.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">How We Help</h2>
+                <p class="animate__animated animate__fadeInUp"> We aim to be thought leaders in all markets we serve, and actively invest in industry. Our approach is to apply deep, market-specific expertise, combined with the best practices of our global client base, to solve our clients’ challenges and problems. We develop long-term relationships as trusted advisors to our clients, and work with them to deliver sustainable outcomes and lasting value.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('{% static 'assets/img/solar 2.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Creating adaptive strategies</h2>
+                <p class="animate__animated animate__fadeInUp">We care about your business and we are Knowledgeable about making your benefits higher.  We have been lucky to have the opportunity to service clients - from startups to not-for-profit - to enterprise companies. We have grown immensely!</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </section><!-- End Hero -->
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">

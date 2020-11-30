@@ -3,6 +3,51 @@
 {% block body_block %}
 
   <main id="main">
+    <section id="hero">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('{% static 'assets/img/business.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 lang="la" class="animate__animated animate__fadeInDown">Business <span> Advisory</span></h2>
+                <p class="animate__animated animate__fadeInUp">Business advisory services tackle all aspects of business from managing finances, marketing your product or service better and more widely, embarking on research and development activities, to improving your operations.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('{% static 'assets/img/business2.jpg' %}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">How We Help</h2>
+                <p class="animate__animated animate__fadeInUp"> We provide management consulting to help organizations improve their performance and efficiency. These professionals analyze businesses and create solutions while also helping companies meet their goals.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </section><!-- End Hero -->
+
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
@@ -40,7 +85,7 @@ business needs that may not require the expression of opinions based on professi
             <p class="font-italic">
               Our team of professionals serves
 companies throughout the business lifecycle and help them to emerge stronger and smarter by delivering an overall
-distinctive client experience through tailored service offerings and resources. 
+distinctive client experience through tailored service offerings and resources.
             </p>
           </div>
         </div>
