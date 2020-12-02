@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Wed Dec 02 2020 19:32:20 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* leighfisher_app/static/assets/css/style.css
+* leighfisher_app/templates/about.html
+* leighfisher_app/templates/base.html
+
+
+Created files:
+* .autogit/logs/log-2-11-2020-19-1-58.txt
+
+
+Deleted files:
+
+
+Renamed files:

@@ -256,27 +256,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* career button */
-.triconett{
-  margin-left: 25px;
-  background: #ff9c07;
-  color: #fff;
-  border-radius: 4px;
-  padding: 8px 30px 9px 30px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-}
-
-@media (max-width: 991px) {
-  .triconett {
-    margin: 0 48px 0 0;
-    padding: 6px 18px;
-  }
-}
-
-
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
@@ -2237,49 +2216,10 @@ section {
   color: white;
 }
 
-
-/* Cards */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+.slogan-pg{
+  font-family: Lobster;
   text-align: center;
-  background-color: #f1f1f1;
-  padding: 20px;
   margin: 20px;
+  padding: 40px;
 }
+/* Cards */
