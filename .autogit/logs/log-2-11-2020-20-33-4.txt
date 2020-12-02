@@ -1,0 +1,31 @@
+-------------------- Auto-Git Log --------------------
+		Wed Dec 02 2020 20:33:04 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* leighfisher_app/templates/Business_adv.html
+* leighfisher_app/templates/Reality.html
+* "leighfisher_app/templates/trust funding.html"
+
+
+Created files:
+* .autogit/logs/log-2-11-2020-20-2-43.txt
+* leighfisher_app/static/assets/img/busy101.jpg
+* leighfisher_app/static/assets/img/busy102.jpg
+* leighfisher_app/static/assets/img/busy103.jpg
+* leighfisher_app/static/assets/img/busy104.jpg
+* leighfisher_app/static/assets/img/realty101.jpg
+* leighfisher_app/static/assets/img/realty102.jpg
+* leighfisher_app/static/assets/img/realty103.jpg
+* leighfisher_app/static/assets/img/start101.jpg
+* leighfisher_app/static/assets/img/start102.jpg
+* leighfisher_app/static/assets/img/start103.jpg
+* leighfisher_app/static/assets/img/trust101.jpg
+* leighfisher_app/static/assets/img/trust102.jpg
+* leighfisher_app/static/assets/img/trust103.jpg
+
+
+Deleted files:
+
+
+Renamed files:
