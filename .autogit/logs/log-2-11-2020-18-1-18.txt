@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Dec 02 2020 18:01:18 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* leighfisher_app/templates/InternationalTrading.html
+
+
+Created files:
+* .autogit/logs/log-2-11-2020-17-30-57.txt
+
+
+Deleted files:
+
+
+Renamed files:
