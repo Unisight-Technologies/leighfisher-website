@@ -256,6 +256,27 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* career button */
+.triconett{
+  margin-left: 25px;
+  background: #ff9c07;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 30px 9px 30px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+@media (max-width: 991px) {
+  .triconett {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
