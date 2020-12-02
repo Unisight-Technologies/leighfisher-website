@@ -46,7 +46,7 @@ if socket.gethostname() == 'ip-172-31-33-99':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-13-233-99-30.ap-south-1.compute.amazonaws.com','127.0.0.1']
+ALLOWED_HOSTS = ['www.leighfisher.in', 'leighfisher.in','127.0.0.1', 'ec2-13-233-99-30.ap-south-1.compute.amazonaws.com']
 
 
 
